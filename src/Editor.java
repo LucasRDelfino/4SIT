@@ -56,7 +56,7 @@ public class Editor extends JFrame {
 		add(btGravar);
 		add(btAbrir);
 		add(btLimpar);
-		//add(btcor);
+		add(btcor);
 	}
 
 	public void definirEventos() {
