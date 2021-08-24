@@ -6,7 +6,7 @@ import java.text.AttributedCharacterIterator.Attribute;
 
 public class Editor extends JFrame {
 	private JLabel label1, label2,lbcor;
-	private JButton btGravar, btAbrir, btLimpar,btcor;
+	private JButton btGravar, btAbrir, btLimpar,btcor,btnegrito;
 	private JTextField tfTexto;
 	private TextArea taTexto;
 	private FileDialog fdAbrir, fdSalvar;
@@ -56,9 +56,8 @@ public class Editor extends JFrame {
 		add(btGravar);
 		add(btAbrir);
 		add(btLimpar);
-		add(btcor);
-		add(btcor);
-		add(btcor);
+		//add(btcor);
+		
 	}
 
 	public void definirEventos() {
